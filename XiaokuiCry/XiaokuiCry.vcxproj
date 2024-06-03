@@ -19,21 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="XiaokuiCry.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="XiaokuiCry.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="XiaokuiCry.rc" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\XiaokuiCry.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\res\rsa_public_key_2048.pub" />
     <None Include="..\res\XiaokuiCry.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\resource.h" />
+    <ClInclude Include="..\src\XiaokuiCry.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\XiaokuiCry.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

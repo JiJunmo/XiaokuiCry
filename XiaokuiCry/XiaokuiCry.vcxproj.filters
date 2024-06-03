@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="XiaokuiCry.cpp">
+    <ClCompile Include="..\src\XiaokuiCry.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="XiaokuiCry.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="XiaokuiCry.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\res\XiaokuiCry.htm" />
     <None Include="..\res\rsa_public_key_2048.pub" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\XiaokuiCry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\src\XiaokuiCry.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
